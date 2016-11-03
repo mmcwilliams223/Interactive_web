@@ -1,0 +1,37 @@
+nav input {
+  position: relative;
+  height: 40px; min-width: 80px;
+  margin-left: 3px; margin-right: 3px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 18px;
+  background: #161735;
+  background-image: -webkit-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: -moz-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: -o-linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  background-image: linear-gradient(bottom, #2B2B2B 7%, #333333 100%);
+  text-align: center;
+  color: #4cb63c;
+  letter-spacing: 1px;
+  text-shadow: 1px 1px 1px #0E0E0E;
+  -webkit-box-shadow: 2px 2px 3px #888;
+  -moz-box-shadow: 2px 2px 3px #888;
+  box-shadow: 2px 2px 3px #888;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+
+}
+nav input.active {
+ text-decoration:bold;
+ -webkit-box-shadow: 2px 2px 3px #fff;
+ -moz-box-shadow: 2px 2px 3px #fff;
+  box-shadow: 2px 2px 3px #fff;
+}
+
+nav input:hover {
+  cursor: pointer;
+  text-decoration:bold;
+  -webkit-box-shadow: 2px 2px 3px #fff;
+  -moz-box-shadow: 2px 2px 3px #fff;
+  box-shadow: 2px 2px 3px #fff;
+}
