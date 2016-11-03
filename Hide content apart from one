@@ -1,0 +1,5 @@
+$(document).ready(function() {
+  $("#Coaches_div, #Players_div, #Gallery_div, #Contact_div, #Sponsors_div, #Blog_div").hide();
+  
+  
+});
