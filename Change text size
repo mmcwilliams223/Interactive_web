@@ -1,0 +1,15 @@
+$(document).ready(function() {
+
+  $("#biggerFont").click(function(){
+    var contentFontSize = parseInt($(".content").css("font-size"));
+    contentFontSize = contentFontSize + 1 + "px";
+    $(".content").css({'font-size':contentFontSize});
+  })
+
+  $("#smallerFont").click(function(){
+    var contentFontSize = parseInt($(".content").css("font-size"));
+    contentFontSize = contentFontSize - 1 + "px";
+    $(".content").css({'font-size':contentFontSize});
+  })
+
+});
